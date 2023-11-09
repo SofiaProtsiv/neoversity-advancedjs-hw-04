@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>neoversity-advancedjs-hw-04</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <form class="search-form" id="search-form">
+      <input
+        class="search__input"
+        type="text"
+        name="query"
+        autocomplete="off"
+        aria-label="Search films "
+        placeholder="Search images..."
+        contenteditable
+      />
+      <button class="btn-search" type="submit">Submit</button>
+    </form>
+
+    <div class="gallery"></div>
+
+    <button
+      class="load-more is-hidden"
+      type="button"
+      data-action="load-more"
+    ></button>
+
+    <span class="spinner-border spinner-border-sm spinner"></span>
+
+    <a class="back_to_top" title="top">🔝</a>
+
+    <script defer src="main.js" type="module"></script>
+    <script defer src="js/topBtn.js" type="module"></script>
+  </body>
+</html>
